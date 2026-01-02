@@ -1,7 +1,7 @@
 import platform
 from abc import ABC, abstractmethod
 from queue import Empty, Full, Queue
-from typing import Self
+from typing_extensions import Self
 
 import av
 

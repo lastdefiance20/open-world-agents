@@ -3,7 +3,8 @@ import multiprocessing as mp
 import threading
 from abc import ABC, abstractmethod
 from multiprocessing.synchronize import Event as mpEvent
-from typing import Self, TypeAlias
+from typing import TypeAlias
+from typing_extensions import Self
 
 
 class RunnableSessionContextManager:

@@ -4,7 +4,7 @@ This is not being used currently!
 
 # References: https://foxglove.dev/blog/how-to-use-ros2-lifecycle-nodes
 
-from enum import StrEnum
+from typing_extensions import StrEnum
 
 
 class NodeStates(StrEnum):

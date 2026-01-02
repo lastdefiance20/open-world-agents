@@ -9,7 +9,8 @@ BaseMessage interface to ensure consistent serialization and schema handling.
 import io
 import warnings
 from abc import ABC, abstractmethod
-from typing import Any, ClassVar, Dict, Self
+from typing import Any, ClassVar, Dict
+from typing_extensions import Self
 
 from pydantic import BaseModel, model_validator
 from pydantic.fields import ModelPrivateAttr

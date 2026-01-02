@@ -1,4 +1,4 @@
-from enum import StrEnum
+from typing_extensions import StrEnum
 
 import line_profiler
 import torch

@@ -21,6 +21,7 @@ dependencies = [
     "rich>=14.1.0",
     "tqdm",
     "typer>=0.20.0",
+    "typing-extensions",
 ]
 
 [tool.uv.sources]

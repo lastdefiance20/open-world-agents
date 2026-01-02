@@ -1,7 +1,8 @@
 """Desktop screen capture message definitions."""
 
 from pathlib import Path
-from typing import Optional, Self, Tuple, cast
+from typing import Optional, Tuple, cast
+from typing_extensions import Self
 
 import cv2
 import numpy as np

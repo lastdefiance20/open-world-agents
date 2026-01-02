@@ -12,6 +12,7 @@ dependencies = [
     "loguru",
     "pydantic>=2.0",
     "pyyaml>=6.0",
+    "typing-extensions",
 ]
 
 # entry points for plugin discovery

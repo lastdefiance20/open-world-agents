@@ -15,6 +15,7 @@ dependencies = [
     "owa-msgs==0.6.5",
     "pygobject-stubs",
     "tqdm",
+    "typing-extensions",
 ]
 
 [tool.uv.sources]

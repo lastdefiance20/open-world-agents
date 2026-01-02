@@ -1,6 +1,6 @@
 """Dataset configuration classes."""
 
-from enum import StrEnum
+from typing_extensions import StrEnum
 from typing import Optional
 
 from datasets.utils.typing import PathLike
