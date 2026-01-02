@@ -4,7 +4,7 @@ version = "0.6.5"
 description = "Desktop environment plugin for Open World Agents with mouse, keyboard, and window control"
 readme = "README.md"
 license = { text = "MIT" }
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
     "bettercam ; sys_platform == 'win32'",
     "evdev<1.9.2 ; sys_platform == 'linux'",

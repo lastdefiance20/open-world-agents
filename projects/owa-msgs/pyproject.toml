@@ -4,7 +4,7 @@ version = "0.6.5"
 description = "Core message definitions for Open World Agents"
 readme = "README.md"
 license = { text = "MIT" }
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
     "annotated-types",
     "mediaref~=0.4.1",

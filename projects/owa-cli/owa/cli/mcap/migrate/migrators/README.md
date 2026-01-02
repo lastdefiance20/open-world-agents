@@ -42,7 +42,7 @@ All migrators **MUST** implement the PEP 723 script format:
 ```python
 #!/usr/bin/env -S uv run --script
 # /// script
-# requires-python = ">=3.11"
+# requires-python = ">=3.10"
 # dependencies = [
 #     "rich>=13.0.0",
 #     "mcap>=1.0.0",
