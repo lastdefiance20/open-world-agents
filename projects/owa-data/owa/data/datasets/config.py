@@ -1,6 +1,6 @@
 """Dataset configuration classes."""
 
-from typing_extensions import StrEnum
+from enum import Enum
 from typing import Optional
 
 from datasets.utils.typing import PathLike
@@ -9,7 +9,7 @@ from pydantic import BaseModel
 from owa.core.utils import EasyDict
 
 
-class DatasetStage(StrEnum):
+class DatasetStage(str, Enum):
     """Dataset processing stages in the OWA pipeline."""
 
     EVENT = "event"  # Raw MCAP events

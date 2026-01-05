@@ -5,8 +5,6 @@ from dataclasses import dataclass
 from fractions import Fraction
 from typing import Generator, Optional
 
-from typing_extensions import StrEnum
-
 import av
 
 from ...utils.typing import PathLike
@@ -29,7 +27,7 @@ class VideoStreamMetadata:
     height: int
 
 
-class BatchDecodingStrategy(StrEnum):
+class BatchDecodingStrategy(str, enum.Enum):
     SEPARATE = "separate"  # Decode each frame separately. Best at sparse query.
     SEQUENTIAL_PER_KEYFRAME_BLOCK = "sequential_per_keyframe_block"  # Decode frames in batches per keyframe block. Better at dense query then separate, better at sparse query then sequential.
     SEQUENTIAL = "sequential"  # Decode frames in batches. Best at dense query.

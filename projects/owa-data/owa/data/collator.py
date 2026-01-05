@@ -1,11 +1,11 @@
-from typing_extensions import StrEnum
+from enum import Enum
 
 import line_profiler
 import torch
 from transformers import ProcessorMixin
 
 
-class ModelType(StrEnum):
+class ModelType(str, Enum):
     """Supported vision-language model types for data collation."""
 
     INTERNVL = "internvl"

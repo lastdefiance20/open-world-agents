@@ -12,7 +12,7 @@ dependencies = [
     "opencv-python",
     "owa-core @ git+https://github.com/lastdefiance20/open-world-agents.git#subdirectory=projects/owa-core",
     "pydantic>=2.0",
-    "typing-extensions>=4.6.0",
+    "typing-extensions",
 ]
 
 # entry points for message discovery

@@ -11,7 +11,7 @@ dependencies = [
     "owa-env-desktop @ git+https://github.com/lastdefiance20/open-world-agents.git#subdirectory=projects/owa-env-desktop",
     "owa-env-gst @ git+https://github.com/lastdefiance20/open-world-agents.git#subdirectory=projects/owa-env-gst",
     "owa-msgs @ git+https://github.com/lastdefiance20/open-world-agents.git#subdirectory=projects/owa-msgs",
-    "typing-extensions>=4.6.0",
+    "typing-extensions",
 ]
 
 [project.optional-dependencies]

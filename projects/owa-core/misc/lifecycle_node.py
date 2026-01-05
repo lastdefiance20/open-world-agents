@@ -4,17 +4,17 @@ This is not being used currently!
 
 # References: https://foxglove.dev/blog/how-to-use-ros2-lifecycle-nodes
 
-from typing_extensions import StrEnum
+from enum import Enum
 
 
-class NodeStates(StrEnum):
+class NodeStates(str, Enum):
     UNCONFIGURED = "unconfigured"
     INACTIVE = "inactive"
     ACTIVE = "active"
     FINALIZED = "finalized"
 
 
-class TransitionStates(StrEnum):
+class TransitionStates(str, Enum):
     CONFIGURING = "configuring"
     CLEANING_UP = "cleaning_up"
     SHUTTING_DOWN = "shutting_down"

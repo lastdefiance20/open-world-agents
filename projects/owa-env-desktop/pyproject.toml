@@ -17,7 +17,7 @@ dependencies = [
     "pyobjc-framework-ApplicationServices>=10.1 ; sys_platform == 'darwin'",
     "pyobjc-framework-Quartz>=10.1 ; sys_platform == 'darwin'",
     "pywin32>=307 ; sys_platform == 'win32'",
-    "typing-extensions>=4.6.0",
+    "typing-extensions",
 ]
 
 [tool.uv.sources]
