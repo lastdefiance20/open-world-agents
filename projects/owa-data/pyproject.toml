@@ -25,7 +25,7 @@ dependencies = [
     "pillow>=9.4.0",
     "pydantic>=2.0",
     "tqdm",
-    "typing-extensions",
+    "typing-extensions>=4.6.0",
 ]
 
 [build-system]

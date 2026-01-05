@@ -15,7 +15,7 @@ dependencies = [
     "owa-msgs @ git+https://github.com/lastdefiance20/open-world-agents.git#subdirectory=projects/owa-msgs",
     "pygobject-stubs",
     "tqdm",
-    "typing-extensions",
+    "typing-extensions>=4.6.0",
 ]
 
 [tool.uv.sources]

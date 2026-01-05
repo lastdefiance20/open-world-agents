@@ -12,7 +12,7 @@ dependencies = [
     "packaging>=20.0",
     "pydantic>=2.0",
     "requests>=2.32.2",
-    "typing-extensions",
+    "typing-extensions>=4.6.0",
 ]
 
 [tool.uv.sources]
