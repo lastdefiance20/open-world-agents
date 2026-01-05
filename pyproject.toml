@@ -5,12 +5,12 @@ description = "Everything you need to build state-of-the-art foundation multimod
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "mcap-owa-support @ file:./projects/mcap-owa-support",
-    "owa-cli @ file:./projects/owa-cli",
-    "owa-core @ file:./projects/owa-core",
-    "owa-env-desktop @ file:./projects/owa-env-desktop",
-    "owa-env-gst @ file:./projects/owa-env-gst",
-    "owa-msgs @ file:./projects/owa-msgs",
+    "mcap-owa-support @ git+https://github.com/lastdefiance20/open-world-agents.git@main#subdirectory=projects/mcap-owa-support",
+    "owa-cli @ git+https://github.com/lastdefiance20/open-world-agents.git@main#subdirectory=projects/owa-cli",
+    "owa-core @ git+https://github.com/lastdefiance20/open-world-agents.git@main#subdirectory=projects/owa-core",
+    "owa-env-desktop @ git+https://github.com/lastdefiance20/open-world-agents.git@main#subdirectory=projects/owa-env-desktop",
+    "owa-env-gst @ git+https://github.com/lastdefiance20/open-world-agents.git@main#subdirectory=projects/owa-env-gst",
+    "owa-msgs @ git+https://github.com/lastdefiance20/open-world-agents.git@main#subdirectory=projects/owa-msgs",
     "typing-extensions",
 ]
 

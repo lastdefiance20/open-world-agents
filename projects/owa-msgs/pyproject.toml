@@ -10,7 +10,7 @@ dependencies = [
     "mediaref~=0.4.1",
     "numpy>=2.0",
     "opencv-python",
-    "owa-core @ file:../owa-core",
+    "owa-core @ git+https://github.com/lastdefiance20/open-world-agents.git@main#subdirectory=projects/owa-core",
     "pydantic>=2.0",
     "typing-extensions",
 ]
